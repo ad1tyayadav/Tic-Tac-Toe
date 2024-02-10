@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(12, 111, 114);
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 8vmin;
+    background-color: wheat;
+    color: black;
+}
+
+.new-btn,.resetgame{
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgb(13 95 135);
+    color: aliceblue;
+    padding: 14px 18px;
+    border-radius: 13px;
+    border: 2px solid black;
+    border-style: double;
+}
+
+.msg-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    color: #f5deb3;
+    font-size: 3vmin;
+}
+
+.hide{
+    display: none;
+}
+
+main{
+    position: relative;
+    top: 40px;
+}
+
+.gname{
+    font-size: 6vmin;
+}
+
+
+@media (max-width : 1050px) {
+
+    body{
+        background-color: rgb(19, 65, 118);
+    }
+
+    .container{
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .game{
+        height: 60vmin;
+        width: 60vmin;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+
+} 
+
